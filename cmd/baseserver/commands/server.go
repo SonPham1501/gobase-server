@@ -39,6 +39,7 @@ func runServer(interruptChan chan os.Signal) error {
 	// wait for kill signal before attempting to gracefully shutdown
 	// the running service
 	signal.Notify(interruptChan, syscall.SIGINT, syscall.SIGTERM)
+	<-interruptChan
 	return nil
 }
 

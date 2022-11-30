@@ -6,6 +6,7 @@ require github.com/spf13/cobra v1.6.1
 
 require (
 	github.com/francoispqt/gojay v1.2.13 // indirect
+	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/mattermost/logr/v2 v2.0.15 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
